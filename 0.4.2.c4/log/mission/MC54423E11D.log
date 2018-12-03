@@ -1,0 +1,50 @@
+2018-11-27 11:21:27,035 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/MC54423E11D.log
+2018-11-27 11:21:27,298 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects37
+2018-11-27 11:21:31,735 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects7
+2018-11-27 11:21:33,737 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects85
+2018-11-27 11:21:34,277 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects33
+2018-11-27 11:21:37,871 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects44
+2018-11-27 11:21:41,657 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects29
+2018-11-27 11:21:43,514 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects182
+2018-11-27 11:21:44,025 [WARN] [S3Storage] - below exception encountered when creating object myobjects182 at s3testqwer1: Failed to reset the request input stream;  If the request involves an input stream, the maximum stream buffer size can be configured via request.getRequestClientOptions().setReadLimit(int)
+2018-11-27 11:21:44,031 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects92
+2018-11-27 11:21:44,048 [ERROR] [AbstractOperator] - worker 1 fail to perform operation s3testqwer2/myobjects92
+java.lang.NullPointerException
+	at com.intel.cosbench.driver.operator.Reader.copyLarge(Reader.java:120)
+	at com.intel.cosbench.driver.operator.Reader.doRead(Reader.java:92)
+	at com.intel.cosbench.driver.operator.Reader.operate(Reader.java:69)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-27 11:21:44,049 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects100
+2018-11-27 11:21:44,062 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects49
+2018-11-27 11:21:46,600 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects95
+2018-11-27 11:21:46,605 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects33
+2018-11-27 11:21:48,529 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects36
+2018-11-27 11:21:49,146 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects53
+2018-11-27 11:21:49,687 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects159
+2018-11-27 11:21:50,197 [WARN] [S3Storage] - below exception encountered when creating object myobjects159 at s3testqwer2: Failed to reset the request input stream;  If the request involves an input stream, the maximum stream buffer size can be configured via request.getRequestClientOptions().setReadLimit(int)
+2018-11-27 11:21:50,201 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects16
+2018-11-27 11:21:53,173 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects61
+2018-11-27 11:21:57,445 [ERROR] [ErrorStatistics] - error code: N/A occurred 4 times, fail to operate: s3testqwer2/myobjects92, s3testqwer2/myobjects92, s3testqwer2/myobjects100, s3testqwer2/myobjects95
+java.lang.NullPointerException
+	at com.intel.cosbench.driver.operator.Reader.copyLarge(Reader.java:120)
+	at com.intel.cosbench.driver.operator.Reader.doRead(Reader.java:92)
+	at com.intel.cosbench.driver.operator.Reader.operate(Reader.java:69)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

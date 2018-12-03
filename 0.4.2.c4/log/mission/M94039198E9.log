@@ -1,0 +1,3 @@
+2018-11-23 13:59:03,023 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/M94039198E9.log
+2018-11-23 13:59:03,279 [INFO] [NoneStorage] - performing PUT at /s3testqwer1
+2018-11-23 13:59:03,290 [INFO] [NoneStorage] - performing PUT at /s3testqwer2

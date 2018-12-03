@@ -1,0 +1,3 @@
+2018-11-22 14:29:09,013 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/M33B2E4AF6D.log
+2018-11-22 14:29:09,243 [INFO] [NoneStorage] - performing DELETE at /s3testqwer1
+2018-11-22 14:29:09,251 [INFO] [NoneStorage] - performing DELETE at /s3testqwer2

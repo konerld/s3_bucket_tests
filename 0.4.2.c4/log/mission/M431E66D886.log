@@ -1,0 +1,21 @@
+2018-11-20 19:14:04,018 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/M431E66D886.log
+2018-11-20 19:14:04,269 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects1
+2018-11-20 19:14:04,350 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects2
+2018-11-20 19:14:04,455 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects3
+2018-11-20 19:14:04,561 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects4
+2018-11-20 19:14:04,668 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects5
+2018-11-20 19:14:04,775 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects6
+2018-11-20 19:14:04,881 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects7
+2018-11-20 19:14:04,988 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects8
+2018-11-20 19:14:05,096 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects9
+2018-11-20 19:14:05,202 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects10
+2018-11-20 19:14:05,308 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects1
+2018-11-20 19:14:05,415 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects2
+2018-11-20 19:14:05,522 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects3
+2018-11-20 19:14:05,628 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects4
+2018-11-20 19:14:05,959 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects5
+2018-11-20 19:14:06,036 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects6
+2018-11-20 19:14:06,143 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects7
+2018-11-20 19:14:06,249 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects8
+2018-11-20 19:14:06,357 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects9
+2018-11-20 19:14:06,463 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects10

@@ -1,0 +1,7 @@
+2018-11-20 19:40:37,012 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/M931FEBAF7A.log
+2018-11-20 19:40:37,237 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects6
+2018-11-20 19:40:42,376 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects20
+2018-11-20 19:40:47,699 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects12
+2018-11-20 19:40:53,003 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects7
+2018-11-20 19:40:58,108 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects1
+2018-11-20 19:41:03,242 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects10

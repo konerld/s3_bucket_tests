@@ -1,0 +1,14 @@
+2018-11-26 16:57:44,036 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/MB504FC2B9D.log
+2018-11-26 16:57:44,302 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects11
+2018-11-26 16:57:48,749 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects160
+2018-11-26 16:57:49,260 [WARN] [S3Storage] - below exception encountered when creating object myobjects160 at s3testqwer2: Failed to reset the request input stream;  If the request involves an input stream, the maximum stream buffer size can be configured via request.getRequestClientOptions().setReadLimit(int)
+2018-11-26 16:57:49,263 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects3
+2018-11-26 16:57:51,932 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects38
+2018-11-26 16:57:57,846 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects71
+2018-11-26 16:57:58,448 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects38
+2018-11-26 16:58:02,225 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects71
+2018-11-26 16:58:02,821 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects70
+2018-11-26 16:58:03,923 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects52
+2018-11-26 16:58:06,908 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects57
+2018-11-26 16:58:08,966 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects11
+2018-11-26 16:58:12,162 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects18

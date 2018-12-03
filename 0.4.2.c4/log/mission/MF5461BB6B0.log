@@ -1,0 +1,14 @@
+2018-11-27 11:55:50,032 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/MF5461BB6B0.log
+2018-11-27 11:55:50,272 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects46
+2018-11-27 11:55:54,289 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects21
+2018-11-27 11:55:57,379 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects58
+2018-11-27 11:55:58,690 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects13
+2018-11-27 11:56:02,082 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects70
+2018-11-27 11:56:06,614 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects29
+2018-11-27 11:56:08,334 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects37
+2018-11-27 11:56:09,078 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects21
+2018-11-27 11:56:09,615 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects34
+2018-11-27 11:56:12,876 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects18
+2018-11-27 11:56:14,232 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects7
+2018-11-27 11:56:17,093 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects29
+2018-11-27 11:56:17,648 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects4

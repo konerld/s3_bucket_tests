@@ -1,0 +1,10 @@
+2018-11-20 19:53:21,024 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/MA320A629B3.log
+2018-11-20 19:53:21,417 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects1
+2018-11-20 19:53:21,418 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects8
+2018-11-20 19:53:21,422 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects3
+2018-11-20 19:53:21,423 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects1
+2018-11-20 19:53:21,424 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects8
+2018-11-20 19:53:21,425 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects11
+2018-11-20 19:53:21,426 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects4
+2018-11-20 19:53:21,426 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects1
+2018-11-20 19:53:26,856 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects9

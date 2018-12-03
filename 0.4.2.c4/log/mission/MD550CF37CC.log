@@ -1,0 +1,71 @@
+2018-11-27 15:02:51,042 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/MD550CF37CC.log
+2018-11-27 15:02:51,321 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects23
+2018-11-27 15:02:51,322 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects48
+2018-11-27 15:02:55,061 [ERROR] [AbstractOperator] - worker 2 fail to perform operation s3testqwer2/myobjects48
+com.amazonaws.AmazonClientException: Unable to verify integrity of data download.  Client calculated content hash didn't match hash calculated by Amazon S3.  The data may be corrupt.
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.validateMD5Digest(DigestValidationInputStream.java:79)
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.read(DigestValidationInputStream.java:61)
+	at com.amazonaws.internal.SdkFilterInputStream.read(SdkFilterInputStream.java:72)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:155)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:147)
+	at com.intel.cosbench.driver.operator.Reader.copyLarge(Reader.java:120)
+	at com.intel.cosbench.driver.operator.Reader.doRead(Reader.java:92)
+	at com.intel.cosbench.driver.operator.Reader.operate(Reader.java:69)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-27 15:02:55,062 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects51
+2018-11-27 15:02:55,627 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects21
+2018-11-27 15:02:56,469 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects22
+2018-11-27 15:02:56,966 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects97
+2018-11-27 15:02:57,959 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects20
+2018-11-27 15:02:58,676 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects50
+2018-11-27 15:02:59,049 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects70
+2018-11-27 15:03:00,160 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects63
+2018-11-27 15:03:00,397 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects49
+2018-11-27 15:03:02,692 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects69
+2018-11-27 15:03:03,143 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects85
+2018-11-27 15:03:04,292 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects4
+2018-11-27 15:03:05,715 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects42
+2018-11-27 15:03:07,256 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects15
+2018-11-27 15:03:08,263 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects37
+2018-11-27 15:03:09,019 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects35
+2018-11-27 15:03:10,918 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects33
+2018-11-27 15:03:11,802 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects42
+2018-11-27 15:03:12,952 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects21
+2018-11-27 15:03:13,657 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects44
+2018-11-27 15:03:13,962 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects55
+2018-11-27 15:03:15,271 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects72
+2018-11-27 15:03:15,870 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects34
+2018-11-27 15:03:16,424 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects40
+2018-11-27 15:03:18,822 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects49
+2018-11-27 15:03:19,447 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects6
+2018-11-27 15:03:19,573 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects48
+2018-11-27 15:03:20,408 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects3
+2018-11-27 15:03:23,396 [ERROR] [ErrorStatistics] - error code: N/A occurred 20 times, fail to operate: s3testqwer2/myobjects48, s3testqwer2/myobjects48, s3testqwer2/myobjects23, s3testqwer2/myobjects21, s3testqwer2/myobjects20, s3testqwer2/myobjects50, s3testqwer2/myobjects42, s3testqwer1/myobjects15, s3testqwer2/myobjects37, s3testqwer1/myobjects35, s3testqwer1/myobjects33, s3testqwer1/myobjects42, s3testqwer2/myobjects21, s3testqwer1/myobjects44, s3testqwer1/myobjects34, s3testqwer1/myobjects40, s3testqwer1/myobjects49, s3testqwer2/myobjects48, s3testqwer2/myobjects3, s3testqwer2/myobjects6
+com.amazonaws.AmazonClientException: Unable to verify integrity of data download.  Client calculated content hash didn't match hash calculated by Amazon S3.  The data may be corrupt.
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.validateMD5Digest(DigestValidationInputStream.java:79)
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.read(DigestValidationInputStream.java:61)
+	at com.amazonaws.internal.SdkFilterInputStream.read(SdkFilterInputStream.java:72)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:155)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:147)
+	at com.intel.cosbench.driver.operator.Reader.copyLarge(Reader.java:120)
+	at com.intel.cosbench.driver.operator.Reader.doRead(Reader.java:92)
+	at com.intel.cosbench.driver.operator.Reader.operate(Reader.java:69)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

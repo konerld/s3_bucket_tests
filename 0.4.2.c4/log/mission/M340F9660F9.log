@@ -1,0 +1,418 @@
+2018-11-23 17:29:06,028 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/M340F9660F9.log
+2018-11-23 17:29:06,327 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects53
+2018-11-23 17:29:06,328 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects28
+2018-11-23 17:29:06,354 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects54
+2018-11-23 17:29:06,355 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects70
+2018-11-23 17:29:06,614 [ERROR] [AbstractOperator] - worker 3 fail to perform operation s3testqwer1/myobjects54
+com.amazonaws.AmazonClientException: Unable to verify integrity of data download.  Client calculated content hash didn't match hash calculated by Amazon S3.  The data may be corrupt.
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.validateMD5Digest(DigestValidationInputStream.java:79)
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.read(DigestValidationInputStream.java:61)
+	at com.amazonaws.internal.SdkFilterInputStream.read(SdkFilterInputStream.java:72)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:155)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:147)
+	at com.intel.cosbench.driver.operator.Reader.copyLarge(Reader.java:120)
+	at com.intel.cosbench.driver.operator.Reader.doRead(Reader.java:92)
+	at com.intel.cosbench.driver.operator.Reader.operate(Reader.java:69)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-23 17:29:06,614 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects88
+2018-11-23 17:29:06,622 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects179
+2018-11-23 17:29:06,626 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects57
+2018-11-23 17:29:06,644 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects114
+2018-11-23 17:29:06,857 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects13
+2018-11-23 17:29:06,868 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects69
+2018-11-23 17:29:07,063 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects187
+2018-11-23 17:29:07,085 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects11
+2018-11-23 17:29:07,121 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects111
+2018-11-23 17:29:07,195 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects15
+2018-11-23 17:29:07,275 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects87
+2018-11-23 17:29:07,395 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects3
+2018-11-23 17:29:07,466 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects68
+2018-11-23 17:29:07,466 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects64
+2018-11-23 17:29:07,589 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects36
+2018-11-23 17:29:07,644 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects181
+2018-11-23 17:29:07,655 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects33
+2018-11-23 17:29:07,675 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects21
+2018-11-23 17:29:07,754 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects185
+2018-11-23 17:29:07,881 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects113
+2018-11-23 17:29:07,882 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects70
+2018-11-23 17:29:07,900 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects91
+2018-11-23 17:29:08,093 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects82
+2018-11-23 17:29:08,095 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects2
+2018-11-23 17:29:08,200 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects68
+2018-11-23 17:29:08,214 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects76
+2018-11-23 17:29:08,312 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects68
+2018-11-23 17:29:08,320 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects189
+2018-11-23 17:29:08,399 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects32
+2018-11-23 17:29:08,487 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects90
+2018-11-23 17:29:08,490 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects77
+2018-11-23 17:29:08,491 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects43
+2018-11-23 17:29:08,491 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects81
+2018-11-23 17:29:08,683 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects30
+2018-11-23 17:29:08,705 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects139
+2018-11-23 17:29:08,694 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects152
+2018-11-23 17:29:08,703 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects71
+2018-11-23 17:29:08,907 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects10
+2018-11-23 17:29:08,915 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects45
+2018-11-23 17:29:09,026 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects72
+2018-11-23 17:29:09,069 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects64
+2018-11-23 17:29:09,144 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects80
+2018-11-23 17:29:09,145 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects16
+2018-11-23 17:29:09,210 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects22
+2018-11-23 17:29:09,297 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects25
+2018-11-23 17:29:09,317 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects102
+2018-11-23 17:29:09,349 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects34
+2018-11-23 17:29:09,422 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects41
+2018-11-23 17:29:09,497 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects43
+2018-11-23 17:29:09,571 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects157
+2018-11-23 17:29:09,649 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects12
+2018-11-23 17:29:09,717 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects127
+2018-11-23 17:29:09,721 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects115
+2018-11-23 17:29:09,929 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects58
+2018-11-23 17:29:10,002 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects95
+2018-11-23 17:29:10,132 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects9
+2018-11-23 17:29:10,148 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects122
+2018-11-23 17:29:10,152 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects59
+2018-11-23 17:29:10,222 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects104
+2018-11-23 17:29:10,390 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects61
+2018-11-23 17:29:10,410 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects173
+2018-11-23 17:29:10,528 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects2
+2018-11-23 17:29:10,602 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects72
+2018-11-23 17:29:10,614 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects61
+2018-11-23 17:29:10,720 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects72
+2018-11-23 17:29:10,730 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects47
+2018-11-23 17:29:10,805 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects82
+2018-11-23 17:29:10,829 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects59
+2018-11-23 17:29:10,951 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects46
+2018-11-23 17:29:10,978 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects90
+2018-11-23 17:29:11,021 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects144
+2018-11-23 17:29:11,054 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects179
+2018-11-23 17:29:11,146 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects74
+2018-11-23 17:29:11,156 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects39
+2018-11-23 17:29:11,338 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects47
+2018-11-23 17:29:11,351 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects68
+2018-11-23 17:29:11,449 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects70
+2018-11-23 17:29:11,457 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects78
+2018-11-23 17:29:11,555 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects71
+2018-11-23 17:29:11,569 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects36
+2018-11-23 17:29:11,680 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects73
+2018-11-23 17:29:11,689 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects18
+2018-11-23 17:29:11,796 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects81
+2018-11-23 17:29:11,797 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects10
+2018-11-23 17:29:11,797 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects125
+2018-11-23 17:29:11,799 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects28
+2018-11-23 17:29:12,002 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects29
+2018-11-23 17:29:12,023 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects31
+2018-11-23 17:29:12,023 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects26
+2018-11-23 17:29:12,174 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects39
+2018-11-23 17:29:12,216 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects17
+2018-11-23 17:29:12,227 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects21
+2018-11-23 17:29:12,245 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects39
+2018-11-23 17:29:12,377 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects63
+2018-11-23 17:29:12,454 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects19
+2018-11-23 17:29:12,464 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects49
+2018-11-23 17:29:12,475 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects119
+2018-11-23 17:29:12,616 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects180
+2018-11-23 17:29:12,663 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects176
+2018-11-23 17:29:12,674 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects100
+2018-11-23 17:29:12,872 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects184
+2018-11-23 17:29:12,923 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects43
+2018-11-23 17:29:13,003 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects37
+2018-11-23 17:29:13,037 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects151
+2018-11-23 17:29:13,112 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects59
+2018-11-23 17:29:13,212 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects14
+2018-11-23 17:29:13,214 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects50
+2018-11-23 17:29:13,363 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects36
+2018-11-23 17:29:13,431 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects50
+2018-11-23 17:29:13,434 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects34
+2018-11-23 17:29:13,437 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects37
+2018-11-23 17:29:13,605 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects42
+2018-11-23 17:29:13,627 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects166
+2018-11-23 17:29:13,645 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects2
+2018-11-23 17:29:13,650 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects131
+2018-11-23 17:29:13,817 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects60
+2018-11-23 17:29:13,828 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects69
+2018-11-23 17:29:13,949 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects152
+2018-11-23 17:29:13,995 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects59
+2018-11-23 17:29:14,014 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects50
+2018-11-23 17:29:14,027 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects80
+2018-11-23 17:29:14,195 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects32
+2018-11-23 17:29:14,225 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects103
+2018-11-23 17:29:14,245 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects10
+2018-11-23 17:29:14,245 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects117
+2018-11-23 17:29:14,396 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects10
+2018-11-23 17:29:14,460 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects157
+2018-11-23 17:29:14,564 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects94
+2018-11-23 17:29:14,638 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects128
+2018-11-23 17:29:14,842 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects135
+2018-11-23 17:29:14,843 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects194
+2018-11-23 17:29:14,843 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects76
+2018-11-23 17:29:14,878 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects72
+2018-11-23 17:29:15,040 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects35
+2018-11-23 17:29:15,068 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects38
+2018-11-23 17:29:15,140 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects35
+2018-11-23 17:29:15,156 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects73
+2018-11-23 17:29:15,244 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects88
+2018-11-23 17:29:15,254 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects85
+2018-11-23 17:29:15,350 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects48
+2018-11-23 17:29:15,359 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects83
+2018-11-23 17:29:15,456 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects23
+2018-11-23 17:29:15,476 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects91
+2018-11-23 17:29:15,564 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects58
+2018-11-23 17:29:15,575 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects199
+2018-11-23 17:29:15,674 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects89
+2018-11-23 17:29:15,682 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects2
+2018-11-23 17:29:15,780 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects81
+2018-11-23 17:29:15,889 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects144
+2018-11-23 17:29:15,898 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects54
+2018-11-23 17:29:15,954 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects36
+2018-11-23 17:29:15,995 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects90
+2018-11-23 17:29:16,103 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects47
+2018-11-23 17:29:16,136 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects82
+2018-11-23 17:29:16,212 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects35
+2018-11-23 17:29:16,264 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects59
+2018-11-23 17:29:16,307 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects45
+2018-11-23 17:29:16,349 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects7
+2018-11-23 17:29:16,414 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects72
+2018-11-23 17:29:16,435 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects25
+2018-11-23 17:29:16,519 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects61
+2018-11-23 17:29:16,625 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects69
+2018-11-23 17:29:16,627 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects71
+2018-11-23 17:29:16,704 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects6
+2018-11-23 17:29:16,710 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects43
+2018-11-23 17:29:16,818 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects73
+2018-11-23 17:29:16,850 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects17
+2018-11-23 17:29:16,926 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects33
+2018-11-23 17:29:16,948 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects59
+2018-11-23 17:29:17,001 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects56
+2018-11-23 17:29:17,044 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects50
+2018-11-23 17:29:17,077 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects28
+2018-11-23 17:29:17,141 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects173
+2018-11-23 17:29:17,169 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects139
+2018-11-23 17:29:17,534 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects60
+2018-11-23 17:29:17,589 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects70
+2018-11-23 17:29:17,661 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects137
+2018-11-23 17:29:17,766 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects14
+2018-11-23 17:29:17,931 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects7
+2018-11-23 17:29:17,990 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects65
+2018-11-23 17:29:18,297 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects66
+2018-11-23 17:29:18,465 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects4
+2018-11-23 17:29:18,476 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects88
+2018-11-23 17:29:18,561 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects142
+2018-11-23 17:29:18,567 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects4
+2018-11-23 17:29:18,644 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects9
+2018-11-23 17:29:18,654 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects66
+2018-11-23 17:29:18,840 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects7
+2018-11-23 17:29:18,851 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects27
+2018-11-23 17:29:18,909 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects26
+2018-11-23 17:29:19,006 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects41
+2018-11-23 17:29:19,025 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects108
+2018-11-23 17:29:19,053 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects108
+2018-11-23 17:29:19,116 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects18
+2018-11-23 17:29:19,216 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects72
+2018-11-23 17:29:19,367 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects128
+2018-11-23 17:29:19,372 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects100
+2018-11-23 17:29:19,395 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects159
+2018-11-23 17:29:19,403 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects125
+2018-11-23 17:29:19,564 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects19
+2018-11-23 17:29:19,655 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects86
+2018-11-23 17:29:19,740 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects30
+2018-11-23 17:29:19,761 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects146
+2018-11-23 17:29:19,838 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects47
+2018-11-23 17:29:19,871 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects59
+2018-11-23 17:29:19,972 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects190
+2018-11-23 17:29:20,174 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects67
+2018-11-23 17:29:20,204 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects27
+2018-11-23 17:29:20,260 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects1
+2018-11-23 17:29:20,316 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects42
+2018-11-23 17:29:20,922 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects91
+2018-11-23 17:29:21,026 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects60
+2018-11-23 17:29:21,058 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects54
+2018-11-23 17:29:21,156 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects137
+2018-11-23 17:29:21,216 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects20
+2018-11-23 17:29:21,322 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects15
+2018-11-23 17:29:21,362 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects26
+2018-11-23 17:29:21,362 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects94
+2018-11-23 17:29:21,362 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects69
+2018-11-23 17:29:21,456 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects111
+2018-11-23 17:29:21,576 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects56
+2018-11-23 17:29:21,585 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects190
+2018-11-23 17:29:21,599 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects25
+2018-11-23 17:29:21,794 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects37
+2018-11-23 17:29:21,816 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects45
+2018-11-23 17:29:21,904 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects38
+2018-11-23 17:29:21,962 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects54
+2018-11-23 17:29:22,021 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects5
+2018-11-23 17:29:22,076 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects162
+2018-11-23 17:29:22,987 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects23
+2018-11-23 17:29:23,080 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects9
+2018-11-23 17:29:23,114 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects83
+2018-11-23 17:29:23,114 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects15
+2018-11-23 17:29:23,147 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects54
+2018-11-23 17:29:23,207 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects200
+2018-11-23 17:29:23,472 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects68
+2018-11-23 17:29:23,632 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects12
+2018-11-23 17:29:23,746 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects97
+2018-11-23 17:29:23,933 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects52
+2018-11-23 17:29:24,057 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects80
+2018-11-23 17:29:24,118 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects59
+2018-11-23 17:29:24,205 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects90
+2018-11-23 17:29:24,221 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects21
+2018-11-23 17:29:24,320 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects141
+2018-11-23 17:29:24,342 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects25
+2018-11-23 17:29:24,449 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects62
+2018-11-23 17:29:24,555 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects10
+2018-11-23 17:29:24,616 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects26
+2018-11-23 17:29:24,676 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects15
+2018-11-23 17:29:24,709 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects103
+2018-11-23 17:29:24,709 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects182
+2018-11-23 17:29:24,710 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects95
+2018-11-23 17:29:24,813 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects12
+2018-11-23 17:29:24,931 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects155
+2018-11-23 17:29:24,995 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects71
+2018-11-23 17:29:25,004 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects134
+2018-11-23 17:29:25,004 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects72
+2018-11-23 17:29:25,208 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects46
+2018-11-23 17:29:25,213 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects35
+2018-11-23 17:29:25,289 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects12
+2018-11-23 17:29:25,309 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects25
+2018-11-23 17:29:25,384 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects93
+2018-11-23 17:29:25,451 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects55
+2018-11-23 17:29:25,480 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects6
+2018-11-23 17:29:25,530 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects80
+2018-11-23 17:29:25,561 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects53
+2018-11-23 17:29:25,609 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects54
+2018-11-23 17:29:25,666 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects99
+2018-11-23 17:29:25,699 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects192
+2018-11-23 17:29:26,130 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects19
+2018-11-23 17:29:26,185 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects61
+2018-11-23 17:29:26,260 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects139
+2018-11-23 17:29:26,395 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects21
+2018-11-23 17:29:26,449 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects28
+2018-11-23 17:29:26,504 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects29
+2018-11-23 17:29:26,550 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects165
+2018-11-23 17:29:26,577 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects77
+2018-11-23 17:29:26,589 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects171
+2018-11-23 17:29:26,698 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects34
+2018-11-23 17:29:26,782 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects73
+2018-11-23 17:29:26,867 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects180
+2018-11-23 17:29:26,952 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects53
+2018-11-23 17:29:27,101 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects141
+2018-11-23 17:29:28,660 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects69
+2018-11-23 17:29:28,662 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects12
+2018-11-23 17:29:28,662 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects40
+2018-11-23 17:29:28,663 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects186
+2018-11-23 17:29:28,948 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects57
+2018-11-23 17:29:28,960 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects51
+2018-11-23 17:29:28,965 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects30
+2018-11-23 17:29:29,147 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects19
+2018-11-23 17:29:29,161 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects54
+2018-11-23 17:29:29,167 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects79
+2018-11-23 17:29:29,173 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects90
+2018-11-23 17:29:29,369 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects103
+2018-11-23 17:29:29,378 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects19
+2018-11-23 17:29:29,388 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects158
+2018-11-23 17:29:29,400 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects121
+2018-11-23 17:29:29,643 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects188
+2018-11-23 17:29:29,714 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects185
+2018-11-23 17:29:29,815 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects123
+2018-11-23 17:29:29,815 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects90
+2018-11-23 17:29:29,975 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects70
+2018-11-23 17:29:30,052 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects67
+2018-11-23 17:29:30,068 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects12
+2018-11-23 17:29:30,068 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects19
+2018-11-23 17:29:30,151 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects3
+2018-11-23 17:29:30,227 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects65
+2018-11-23 17:29:30,235 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects34
+2018-11-23 17:29:30,280 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects74
+2018-11-23 17:29:30,321 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects101
+2018-11-23 17:29:30,429 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects35
+2018-11-23 17:29:30,438 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects164
+2018-11-23 17:29:30,457 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects46
+2018-11-23 17:29:30,638 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects27
+2018-11-23 17:29:30,652 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects9
+2018-11-23 17:29:30,653 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects165
+2018-11-23 17:29:30,776 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects15
+2018-11-23 17:29:30,781 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects66
+2018-11-23 17:29:30,901 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects67
+2018-11-23 17:29:30,932 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects73
+2018-11-23 17:29:30,964 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects56
+2018-11-23 17:29:30,995 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects14
+2018-11-23 17:29:31,110 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects70
+2018-11-23 17:29:31,132 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects20
+2018-11-23 17:29:31,184 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects66
+2018-11-23 17:29:31,193 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects25
+2018-11-23 17:29:31,334 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects58
+2018-11-23 17:29:31,376 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects23
+2018-11-23 17:29:31,397 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects11
+2018-11-23 17:29:31,417 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects42
+2018-11-23 17:29:31,515 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects18
+2018-11-23 17:29:31,597 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects1
+2018-11-23 17:29:31,618 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects95
+2018-11-23 17:29:31,627 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects112
+2018-11-23 17:29:31,737 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects52
+2018-11-23 17:29:31,802 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects40
+2018-11-23 17:29:31,844 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects76
+2018-11-23 17:29:31,941 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects149
+2018-11-23 17:29:31,981 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects13
+2018-11-23 17:29:31,990 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects82
+2018-11-23 17:29:32,228 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects53
+2018-11-23 17:29:32,298 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects110
+2018-11-23 17:29:32,472 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects64
+2018-11-23 17:29:32,573 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects65
+2018-11-23 17:29:32,640 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects174
+2018-11-23 17:29:32,801 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects166
+2018-11-23 17:29:34,636 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects200
+2018-11-23 17:29:34,796 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects28
+2018-11-23 17:29:34,811 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects182
+2018-11-23 17:29:34,911 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects28
+2018-11-23 17:29:34,998 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects183
+2018-11-23 17:29:35,107 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects12
+2018-11-23 17:29:35,131 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects50
+2018-11-23 17:29:35,214 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects199
+2018-11-23 17:29:35,321 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects35
+2018-11-23 17:29:35,332 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects60
+2018-11-23 17:29:35,369 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects5
+2018-11-23 17:29:35,543 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects3
+2018-11-23 17:29:35,553 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects58
+2018-11-23 17:29:35,576 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects38
+2018-11-23 17:29:35,601 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects62
+2018-11-23 17:29:35,711 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects50
+2018-11-23 17:29:35,722 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects57
+2018-11-23 17:29:35,744 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects46
+2018-11-23 17:29:35,859 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects15
+2018-11-23 17:29:35,868 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects75
+2018-11-23 17:29:35,983 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects76
+2018-11-23 17:29:35,992 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects14
+2018-11-23 17:29:36,095 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects177
+2018-11-23 17:29:36,104 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects8
+2018-11-23 17:29:36,213 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects50
+2018-11-23 17:29:36,284 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects27
+2018-11-23 17:29:36,578 [ERROR] [ErrorStatistics] - error code: N/A occurred 254 times, fail to operate: s3testqwer1/myobjects54, s3testqwer1/myobjects54, s3testqwer1/myobjects53, s3testqwer1/myobjects70, s3testqwer2/myobjects28, s3testqwer1/myobjects88, s3testqwer2/myobjects57, s3testqwer2/myobjects13, s3testqwer2/myobjects69, s3testqwer2/myobjects11, s3testqwer1/myobjects15, s3testqwer2/myobjects87, s3testqwer2/myobjects3, s3testqwer2/myobjects64, s3testqwer2/myobjects68, s3testqwer2/myobjects36, s3testqwer1/myobjects21, s3testqwer2/myobjects33, s3testqwer2/myobjects91, s3testqwer1/myobjects70, s3testqwer1/myobjects82, s3testqwer2/myobjects2, s3testqwer2/myobjects68, s3testqwer2/myobjects76, s3testqwer2/myobjects43, s3testqwer1/myobjects81, s3testqwer2/myobjects90, s3testqwer1/myobjects77, s3testqwer2/myobjects30, s3testqwer1/myobjects71, s3testqwer2/myobjects10, s3testqwer2/myobjects45, s3testqwer1/myobjects72, s3testqwer2/myobjects64, s3testqwer2/myobjects16, s3testqwer2/myobjects80, s3testqwer1/myobjects22, s3testqwer1/myobjects25, s3testqwer2/myobjects34, s3testqwer1/myobjects41, s3testqwer2/myobjects43, s3testqwer1/myobjects12, s3testqwer2/myobjects58, s3testqwer2/myobjects95, s3testqwer2/myobjects9, s3testqwer1/myobjects59, s3testqwer2/myobjects61, s3testqwer1/myobjects2, s3testqwer1/myobjects61, s3testqwer1/myobjects72, s3testqwer2/myobjects72, s3testqwer1/myobjects47, s3testqwer2/myobjects59, s3testqwer1/myobjects82, s3testqwer2/myobjects46, s3testqwer1/myobjects90, s3testqwer2/myobjects74, s3testqwer2/myobjects39, s3testqwer2/myobjects47, s3testqwer2/myobjects68, s3testqwer1/myobjects70, s3testqwer2/myobjects78, s3testqwer1/myobjects71, s3testqwer2/myobjects36, s3testqwer1/myobjects18, s3testqwer1/myobjects73, s3testqwer1/myobjects81, s3testqwer2/myobjects28, s3testqwer2/myobjects10, s3testqwer2/myobjects26, s3testqwer2/myobjects31, s3testqwer2/myobjects29, s3testqwer2/myobjects39, s3testqwer1/myobjects39, s3testqwer2/myobjects21, s3testqwer1/myobjects17, s3testqwer2/myobjects63, s3testqwer2/myobjects19, s3testqwer2/myobjects49, s3testqwer2/myobjects43, s3testqwer2/myobjects37, s3testqwer2/myobjects59, s3testqwer2/myobjects14, s3testqwer2/myobjects50, s3testqwer2/myobjects36, s3testqwer1/myobjects34, s3testqwer2/myobjects50, s3testqwer1/myobjects37, s3testqwer2/myobjects42, s3testqwer2/myobjects2, s3testqwer1/myobjects60, s3testqwer1/myobjects69, s3testqwer1/myobjects59, s3testqwer1/myobjects50, s3testqwer1/myobjects80, s3testqwer1/myobjects32, s3testqwer2/myobjects10, s3testqwer1/myobjects10, s3testqwer2/myobjects76, s3testqwer1/myobjects72, s3testqwer2/myobjects35, s3testqwer1/myobjects38, s3testqwer2/myobjects35, s3testqwer2/myobjects73, s3testqwer2/myobjects88, s3testqwer2/myobjects85, s3testqwer2/myobjects48, s3testqwer1/myobjects83, s3testqwer1/myobjects91, s3testqwer2/myobjects23, s3testqwer1/myobjects58, s3testqwer2/myobjects2, s3testqwer2/myobjects89, s3testqwer2/myobjects81, s3testqwer2/myobjects54, s3testqwer2/myobjects36, s3testqwer2/myobjects90, s3testqwer2/myobjects47, s3testqwer1/myobjects82, s3testqwer2/myobjects35, s3testqwer1/myobjects59, s3testqwer1/myobjects45, s3testqwer1/myobjects25, s3testqwer1/myobjects72, s3testqwer1/myobjects61, s3testqwer1/myobjects7, s3testqwer1/myobjects71, s3testqwer1/myobjects69, s3testqwer2/myobjects43, s3testqwer2/myobjects6, s3testqwer2/myobjects73, s3testqwer2/myobjects17, s3testqwer2/myobjects59, s3testqwer2/myobjects56, s3testqwer2/myobjects50, s3testqwer2/myobjects70, s3testqwer2/myobjects66, s3testqwer1/myobjects88, s3testqwer2/myobjects4, s3testqwer1/myobjects9, s3testqwer1/myobjects66, s3testqwer1/myobjects27, s3testqwer1/myobjects7, s3testqwer1/myobjects26, s3testqwer2/myobjects41, s3testqwer1/myobjects18, s3testqwer1/myobjects72, s3testqwer2/myobjects100, s3testqwer1/myobjects19, s3testqwer1/myobjects86, s3testqwer1/myobjects30, s3testqwer1/myobjects59, s3testqwer1/myobjects42, s3testqwer1/myobjects91, s3testqwer1/myobjects54, s3testqwer2/myobjects15, s3testqwer1/myobjects94, s3testqwer2/myobjects26, s3testqwer2/myobjects69, s3testqwer2/myobjects25, s3testqwer1/myobjects56, s3testqwer2/myobjects45, s3testqwer2/myobjects38, s3testqwer1/myobjects54, s3testqwer2/myobjects68, s3testqwer1/myobjects15, s3testqwer2/myobjects97, s3testqwer2/myobjects12, s3testqwer2/myobjects52, s3testqwer2/myobjects80, s3testqwer1/myobjects59, s3testqwer1/myobjects90, s3testqwer1/myobjects21, s3testqwer2/myobjects15, s3testqwer2/myobjects95, s3testqwer2/myobjects12, s3testqwer2/myobjects72, s3testqwer1/myobjects71, s3testqwer1/myobjects35, s3testqwer1/myobjects46, s3testqwer2/myobjects12, s3testqwer1/myobjects25, s3testqwer2/myobjects93, s3testqwer1/myobjects55, s3testqwer2/myobjects80, s3testqwer2/myobjects54, s3testqwer2/myobjects61, s3testqwer1/myobjects6, s3testqwer1/myobjects53, s3testqwer1/myobjects29, s3testqwer2/myobjects77, s3testqwer2/myobjects34, s3testqwer1/myobjects73, s3testqwer1/myobjects12, s3testqwer1/myobjects40, s3testqwer2/myobjects69, s3testqwer1/myobjects57, s3testqwer1/myobjects30, s3testqwer2/myobjects51, s3testqwer1/myobjects54, s3testqwer2/myobjects79, s3testqwer2/myobjects90, s3testqwer1/myobjects19, s3testqwer1/myobjects67, s3testqwer1/myobjects19, s3testqwer2/myobjects12, s3testqwer2/myobjects3, s3testqwer2/myobjects65, s3testqwer2/myobjects34, s3testqwer2/myobjects74, s3testqwer2/myobjects35, s3testqwer1/myobjects46, s3testqwer1/myobjects9, s3testqwer2/myobjects27, s3testqwer2/myobjects66, s3testqwer2/myobjects15, s3testqwer1/myobjects67, s3testqwer1/myobjects73, s3testqwer2/myobjects56, s3testqwer1/myobjects14, s3testqwer2/myobjects70, s3testqwer1/myobjects20, s3testqwer1/myobjects25, s3testqwer1/myobjects66, s3testqwer2/myobjects58, s3testqwer2/myobjects23, s3testqwer2/myobjects42, s3testqwer1/myobjects11, s3testqwer1/myobjects18, s3testqwer2/myobjects1, s3testqwer1/myobjects95, s3testqwer2/myobjects52, s3testqwer1/myobjects40, s3testqwer2/myobjects53, s3testqwer2/myobjects28, s3testqwer1/myobjects28, s3testqwer2/myobjects12, s3testqwer2/myobjects50, s3testqwer1/myobjects35, s3testqwer1/myobjects60, s3testqwer2/myobjects5, s3testqwer1/myobjects3, s3testqwer2/myobjects58, s3testqwer1/myobjects62, s3testqwer2/myobjects50, s3testqwer2/myobjects46, s3testqwer1/myobjects15, s3testqwer1/myobjects75, s3testqwer1/myobjects76, s3testqwer1/myobjects14, s3testqwer2/myobjects8, s3testqwer2/myobjects50, s3testqwer1/myobjects38, s3testqwer2/myobjects27
+com.amazonaws.AmazonClientException: Unable to verify integrity of data download.  Client calculated content hash didn't match hash calculated by Amazon S3.  The data may be corrupt.
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.validateMD5Digest(DigestValidationInputStream.java:79)
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.read(DigestValidationInputStream.java:61)
+	at com.amazonaws.internal.SdkFilterInputStream.read(SdkFilterInputStream.java:72)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:155)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:147)
+	at com.intel.cosbench.driver.operator.Reader.copyLarge(Reader.java:120)
+	at com.intel.cosbench.driver.operator.Reader.doRead(Reader.java:92)
+	at com.intel.cosbench.driver.operator.Reader.operate(Reader.java:69)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

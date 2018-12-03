@@ -1,0 +1,75 @@
+2018-11-27 14:55:36,040 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/M655064F840.log
+2018-11-27 14:55:36,345 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects59
+2018-11-27 14:55:36,346 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects172
+2018-11-27 14:55:36,881 [WARN] [S3Storage] - below exception encountered when creating object myobjects172 at s3testqwer2: Failed to reset the request input stream;  If the request involves an input stream, the maximum stream buffer size can be configured via request.getRequestClientOptions().setReadLimit(int)
+2018-11-27 14:55:36,919 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects166
+2018-11-27 14:55:37,428 [WARN] [S3Storage] - below exception encountered when creating object myobjects166 at s3testqwer2: Failed to reset the request input stream;  If the request involves an input stream, the maximum stream buffer size can be configured via request.getRequestClientOptions().setReadLimit(int)
+2018-11-27 14:55:37,446 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects91
+2018-11-27 14:55:38,244 [ERROR] [AbstractOperator] - worker 1 fail to perform operation s3testqwer1/myobjects59
+com.amazonaws.AmazonClientException: Unable to verify integrity of data download.  Client calculated content hash didn't match hash calculated by Amazon S3.  The data may be corrupt.
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.validateMD5Digest(DigestValidationInputStream.java:79)
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.read(DigestValidationInputStream.java:61)
+	at com.amazonaws.internal.SdkFilterInputStream.read(SdkFilterInputStream.java:72)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:155)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:147)
+	at com.intel.cosbench.driver.operator.Reader.copyLarge(Reader.java:120)
+	at com.intel.cosbench.driver.operator.Reader.doRead(Reader.java:92)
+	at com.intel.cosbench.driver.operator.Reader.operate(Reader.java:69)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-27 14:55:38,257 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects160
+2018-11-27 14:55:38,765 [WARN] [S3Storage] - below exception encountered when creating object myobjects160 at s3testqwer1: Failed to reset the request input stream;  If the request involves an input stream, the maximum stream buffer size can be configured via request.getRequestClientOptions().setReadLimit(int)
+2018-11-27 14:55:38,770 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects3
+2018-11-27 14:55:39,693 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects1
+2018-11-27 14:55:40,925 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects38
+2018-11-27 14:55:43,095 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects9
+2018-11-27 14:55:43,548 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects39
+2018-11-27 14:55:45,072 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects178
+2018-11-27 14:55:45,581 [WARN] [S3Storage] - below exception encountered when creating object myobjects178 at s3testqwer1: Failed to reset the request input stream;  If the request involves an input stream, the maximum stream buffer size can be configured via request.getRequestClientOptions().setReadLimit(int)
+2018-11-27 14:55:45,585 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects70
+2018-11-27 14:55:46,160 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects44
+2018-11-27 14:55:47,787 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects51
+2018-11-27 14:55:47,796 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects66
+2018-11-27 14:55:51,055 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects11
+2018-11-27 14:55:51,093 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects49
+2018-11-27 14:55:52,956 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects3
+2018-11-27 14:55:54,274 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects17
+2018-11-27 14:55:55,460 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects46
+2018-11-27 14:55:58,246 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects85
+2018-11-27 14:55:59,314 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects15
+2018-11-27 14:56:01,001 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects6
+2018-11-27 14:56:01,423 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects72
+2018-11-27 14:56:02,947 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects1
+2018-11-27 14:56:03,509 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects103
+2018-11-27 14:56:03,799 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects82
+2018-11-27 14:56:04,038 [WARN] [S3Storage] - below exception encountered when creating object myobjects103 at s3testqwer2: Failed to reset the request input stream;  If the request involves an input stream, the maximum stream buffer size can be configured via request.getRequestClientOptions().setReadLimit(int)
+2018-11-27 14:56:04,046 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects29
+2018-11-27 14:56:06,151 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects24
+2018-11-27 14:56:07,843 [ERROR] [ErrorStatistics] - error code: N/A occurred 24 times, fail to operate: s3testqwer1/myobjects59, s3testqwer1/myobjects59, s3testqwer2/myobjects91, s3testqwer1/myobjects3, s3testqwer2/myobjects1, s3testqwer2/myobjects38, s3testqwer2/myobjects39, s3testqwer2/myobjects9, s3testqwer1/myobjects44, s3testqwer2/myobjects70, s3testqwer1/myobjects66, s3testqwer2/myobjects51, s3testqwer2/myobjects49, s3testqwer1/myobjects11, s3testqwer2/myobjects3, s3testqwer1/myobjects17, s3testqwer1/myobjects46, s3testqwer1/myobjects15, s3testqwer1/myobjects85, s3testqwer1/myobjects6, s3testqwer1/myobjects72, s3testqwer2/myobjects1, s3testqwer2/myobjects29, s3testqwer2/myobjects82
+com.amazonaws.AmazonClientException: Unable to verify integrity of data download.  Client calculated content hash didn't match hash calculated by Amazon S3.  The data may be corrupt.
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.validateMD5Digest(DigestValidationInputStream.java:79)
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.read(DigestValidationInputStream.java:61)
+	at com.amazonaws.internal.SdkFilterInputStream.read(SdkFilterInputStream.java:72)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:155)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:147)
+	at com.intel.cosbench.driver.operator.Reader.copyLarge(Reader.java:120)
+	at com.intel.cosbench.driver.operator.Reader.doRead(Reader.java:92)
+	at com.intel.cosbench.driver.operator.Reader.operate(Reader.java:69)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

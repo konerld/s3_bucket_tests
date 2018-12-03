@@ -1,0 +1,5 @@
+2018-11-22 11:48:55,046 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/M33A9B98650.log
+2018-11-22 11:48:55,415 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects5
+2018-11-22 11:48:55,416 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects3
+2018-11-22 11:48:55,421 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects6
+2018-11-22 11:48:55,421 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects9

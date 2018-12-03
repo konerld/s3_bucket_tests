@@ -1,0 +1,81 @@
+2018-11-23 17:45:36,028 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/M5410883F19.log
+2018-11-23 17:45:36,312 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects153
+2018-11-23 17:45:36,312 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects40
+2018-11-23 17:45:36,322 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects77
+2018-11-23 17:45:36,323 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects45
+2018-11-23 17:45:37,283 [ERROR] [AbstractOperator] - worker 4 fail to perform operation s3testqwer2/myobjects45
+com.amazonaws.AmazonClientException: Unable to verify integrity of data download.  Client calculated content hash didn't match hash calculated by Amazon S3.  The data may be corrupt.
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.validateMD5Digest(DigestValidationInputStream.java:79)
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.read(DigestValidationInputStream.java:61)
+	at com.amazonaws.internal.SdkFilterInputStream.read(SdkFilterInputStream.java:72)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:155)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:147)
+	at com.intel.cosbench.driver.operator.Reader.copyLarge(Reader.java:120)
+	at com.intel.cosbench.driver.operator.Reader.doRead(Reader.java:92)
+	at com.intel.cosbench.driver.operator.Reader.operate(Reader.java:69)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-23 17:45:37,337 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects166
+2018-11-23 17:45:37,338 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects174
+2018-11-23 17:45:38,193 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects30
+2018-11-23 17:45:38,360 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects68
+2018-11-23 17:45:38,961 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects45
+2018-11-23 17:45:38,962 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects71
+2018-11-23 17:45:38,971 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects55
+2018-11-23 17:45:39,307 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects82
+2018-11-23 17:45:39,917 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects99
+2018-11-23 17:45:39,997 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects183
+2018-11-23 17:45:40,374 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects71
+2018-11-23 17:45:40,680 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects115
+2018-11-23 17:45:40,714 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects41
+2018-11-23 17:45:41,081 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects18
+2018-11-23 17:45:44,147 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects10
+2018-11-23 17:45:44,181 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects91
+2018-11-23 17:45:44,627 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects48
+2018-11-23 17:45:45,425 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects156
+2018-11-23 17:45:47,583 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects99
+2018-11-23 17:45:48,297 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects26
+2018-11-23 17:45:49,379 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects55
+2018-11-23 17:45:50,154 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects91
+2018-11-23 17:45:50,444 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects101
+2018-11-23 17:45:55,049 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects11
+2018-11-23 17:45:55,050 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects43
+2018-11-23 17:45:55,051 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects168
+2018-11-23 17:45:55,052 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects99
+2018-11-23 17:45:55,798 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects19
+2018-11-23 17:45:57,345 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects116
+2018-11-23 17:45:58,940 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects15
+2018-11-23 17:45:59,298 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects100
+2018-11-23 17:45:59,605 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects26
+2018-11-23 17:45:59,984 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects88
+2018-11-23 17:46:00,561 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects75
+2018-11-23 17:46:04,920 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects108
+2018-11-23 17:46:05,151 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects78
+2018-11-23 17:46:15,091 [ERROR] [ErrorStatistics] - error code: N/A occurred 24 times, fail to operate: s3testqwer2/myobjects45, s3testqwer2/myobjects45, s3testqwer2/myobjects40, s3testqwer1/myobjects77, s3testqwer2/myobjects68, s3testqwer2/myobjects71, s3testqwer2/myobjects82, s3testqwer2/myobjects30, s3testqwer1/myobjects45, s3testqwer2/myobjects99, s3testqwer1/myobjects55, s3testqwer2/myobjects71, s3testqwer2/myobjects18, s3testqwer1/myobjects41, s3testqwer2/myobjects91, s3testqwer2/myobjects10, s3testqwer1/myobjects99, s3testqwer2/myobjects11, s3testqwer2/myobjects15, s3testqwer1/myobjects19, s3testqwer2/myobjects26, s3testqwer1/myobjects100, s3testqwer1/myobjects88, s3testqwer2/myobjects75
+com.amazonaws.AmazonClientException: Unable to verify integrity of data download.  Client calculated content hash didn't match hash calculated by Amazon S3.  The data may be corrupt.
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.validateMD5Digest(DigestValidationInputStream.java:79)
+	at com.amazonaws.services.s3.internal.DigestValidationInputStream.read(DigestValidationInputStream.java:61)
+	at com.amazonaws.internal.SdkFilterInputStream.read(SdkFilterInputStream.java:72)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:155)
+	at com.amazonaws.services.s3.model.S3ObjectInputStream.read(S3ObjectInputStream.java:147)
+	at com.intel.cosbench.driver.operator.Reader.copyLarge(Reader.java:120)
+	at com.intel.cosbench.driver.operator.Reader.doRead(Reader.java:92)
+	at com.intel.cosbench.driver.operator.Reader.operate(Reader.java:69)
+	at com.intel.cosbench.driver.operator.AbstractOperator.operate(AbstractOperator.java:76)
+	at com.intel.cosbench.driver.agent.WorkAgent.performOperation(WorkAgent.java:197)
+	at com.intel.cosbench.driver.agent.WorkAgent.doWork(WorkAgent.java:177)
+	at com.intel.cosbench.driver.agent.WorkAgent.execute(WorkAgent.java:134)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:44)
+	at com.intel.cosbench.driver.agent.AbstractAgent.call(AbstractAgent.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

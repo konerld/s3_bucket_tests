@@ -1,0 +1,11 @@
+2018-11-20 19:45:02,013 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/M93202C7DEE.log
+2018-11-20 19:45:02,329 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects9
+2018-11-20 19:45:02,330 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects4
+2018-11-20 19:45:02,345 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects8
+2018-11-20 19:45:02,348 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects2
+2018-11-20 19:45:02,349 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects7
+2018-11-20 19:45:02,350 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects11
+2018-11-20 19:45:02,354 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects13
+2018-11-20 19:45:02,355 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects1
+2018-11-20 19:45:13,157 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects8
+2018-11-20 19:45:13,196 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects9

@@ -1,0 +1,20 @@
+2018-11-26 14:38:26,034 [INFO] [Log4jLogManager] - will append log to file /root/git/0.4.2.c4/log/mission/M44FD03A0A4.log
+2018-11-26 14:38:26,342 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects35
+2018-11-26 14:38:28,434 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects12
+2018-11-26 14:38:31,376 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects48
+2018-11-26 14:38:34,198 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects16
+2018-11-26 14:38:37,594 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects12
+2018-11-26 14:38:38,299 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects12
+2018-11-26 14:38:38,996 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects5
+2018-11-26 14:38:40,870 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects1
+2018-11-26 14:38:43,909 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects20
+2018-11-26 14:38:47,188 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects38
+2018-11-26 14:38:48,818 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects20
+2018-11-26 14:38:51,195 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects57
+2018-11-26 14:38:51,706 [WARN] [S3Storage] - below exception encountered when creating object myobjects57 at s3testqwer2: Failed to reset the request input stream;  If the request involves an input stream, the maximum stream buffer size can be configured via request.getRequestClientOptions().setReadLimit(int)
+2018-11-26 14:38:51,712 [INFO] [NoneStorage] - performing PUT at /s3testqwer2/myobjects57
+2018-11-26 14:38:52,223 [WARN] [S3Storage] - below exception encountered when creating object myobjects57 at s3testqwer2: Failed to reset the request input stream;  If the request involves an input stream, the maximum stream buffer size can be configured via request.getRequestClientOptions().setReadLimit(int)
+2018-11-26 14:38:52,228 [INFO] [NoneStorage] - performing GET at /s3testqwer1/myobjects33
+2018-11-26 14:38:54,375 [INFO] [NoneStorage] - performing PUT at /s3testqwer1/myobjects51
+2018-11-26 14:38:54,888 [WARN] [S3Storage] - below exception encountered when creating object myobjects51 at s3testqwer1: Failed to reset the request input stream;  If the request involves an input stream, the maximum stream buffer size can be configured via request.getRequestClientOptions().setReadLimit(int)
+2018-11-26 14:38:54,891 [INFO] [NoneStorage] - performing GET at /s3testqwer2/myobjects14
